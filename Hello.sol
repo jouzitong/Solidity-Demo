@@ -1,6 +1,10 @@
-pragma solidity ^0.5.4;
+// SPDX-License-Identifier: GPL-3.0
+pragma solidity ^0.8.4;
 
-function hello()  {
-    return "hello Block Chain";
+contract Hello {
+
+    function hello() public pure returns (string memory) {
+        return "hello Block Chain";
+    }
 }
 
