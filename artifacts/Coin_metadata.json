@@ -74,6 +74,25 @@
 				"inputs": [
 					{
 						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
 						"name": "receiver",
 						"type": "address"
 					},
@@ -148,11 +167,11 @@
 	},
 	"sources": {
 		"Coin.sol": {
-			"keccak256": "0x4bfd480f4d28c2c8a734710d31a599a1f91e6f2294a635efd7550a64df5dfdc4",
+			"keccak256": "0x920776ba9f288def50783b5a50a5c73f77a370e7bcd1186e51b4a2d9a994dd50",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a500213af39f9a0052ad50a313e6f527b7d6c92faf6c0b67683b9669f3547b58",
-				"dweb:/ipfs/Qmab1SMNF8HEXp2keACTc7PmTpqb6v8t5fYz3F46DsV3L9"
+				"bzz-raw://3bb7b02225c9d682a916be2ef5b8725fad5b3ede7534568dd7f1b242806dc4ad",
+				"dweb:/ipfs/QmRDGuBYqz7yFy5DWCpaJtyeWuSd9CqvfhpYjPbQjVrPAm"
 			]
 		}
 	},
