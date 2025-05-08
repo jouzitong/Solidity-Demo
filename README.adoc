@@ -1,0 +1,8 @@
+= Solidity-Demo
+
+智能合约代码
+
+
+
+remixd -s ./ –remix-ide https://remix.ethereum.org
+remixd -r ./ –remix-ide https://remix.ethereum.org
